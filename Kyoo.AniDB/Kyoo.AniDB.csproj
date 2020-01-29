@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+      <PackageReference Include="Kyoo.Common" Version="1.0.6" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    </ItemGroup>
 
 </Project>
